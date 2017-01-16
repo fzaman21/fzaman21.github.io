@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>form html</title>
+	<style type="text/css">
+	body {
+		background-image: url(map.jpg);
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color:cyan;
+	}
+	img {
+		margin-right: 50px;
+		margin-left: 50px;
+		border color="red";
+	}
+	.images {
+		text-align: center; /* posisinya di tengah */
+		margin: 50px auto; /* 50px jarak untuk top & bottom */
+	}
+	.images a {
+		margin: 0px 50px; /* kolom pertama "0px" jarak top & bottom; kolom kedua "50px" right & left */
+		display: inline-block;
+		color: Yellow; /* ganti warna text */
+		text-decoration: none; /* hilangin garis bawah */
+	}
+</style>
+</head>
+<body>
+    <h1>Buku Tamu</h1>
+    <form name="bukutamu" method="POST">
+        <p>
+            <label>Nama</label>
+            <input type="text" name="nama" value="">
+        </p>
+        <p>
+            <label>e-mail</label>
+            <input type="email" name="contoh@bahasaweb.com">
+        </p>
+        <p>
+            <label>Pesan</label>
+            <textarea cols="50" rows="5">Isi Komentar</textarea>
+        </p>
+        <p>
+            <input type="submit" value="Kirim">
+        </p>
+    </form>
+</body>
+</html>
+Berikut ini adalah tampilan dari kode form

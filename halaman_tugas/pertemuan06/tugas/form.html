@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title>
+            Form
+        </title>
+    </head>
+    <body>
+        <h1 align="center">
+            FORM PENDAFTARAN ONLINE
+        </h1>
+        <hr size=3 color="black">
+        <form method="post" action="Home.html">
+                <table>
+                    <tr>
+                        <td>
+                            <b>
+                                Nama:
+                            </b>
+                        </td>
+                        <td>
+                            <input type="Text" name="varNama" size="15">
+                        </td>
+                    </tr>
+                    <tr>
+                    <tr>
+                        <td>
+                            <b>
+                                Alamat:
+                            </b>
+                        </td>
+                        <td>
+                            <input type="Text" name="varAlamat" size="30">
+                        </td>
+                    <tr>
+                        <td>
+                            <b>
+                                Agama:
+                            </b>
+                        </td>
+                        <td>
+                            <select name="agama" size="1">
+                                <option>
+                                    Islam
+                                </option>
+                                <option>
+                                    Kristen
+                                </option>
+                                <option>
+                                    Budha
+                                </option>
+                                <option>
+                                    Hindu
+                                </option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>
+                                Password:
+                            </b>
+                        </td>
+                        <td>
+                            <input type="Password" name="varPassword" size="10">
+                        </td>
+                    </tr>
+                </table>
+            <b>
+                Jenis Kelamin:
+            </b>
+            <input checked type="radio" name="Kelamin" value="pria">Pria
+            <input checked type="radio" name="Kelamin" value="Wanita">Wanita
+            <br>
+                <b>
+                    Hobi:
+                </b>
+            </br>
+            <input type="checkbox" name="Kelamin" value="soccer">Sepakbola
+            <input type="checkbox" name="hobi" value="badminton">Bulutangkis
+            <input type="checkbox" name="hobi" value="computer">Komputer
+            <br>
+            <input type="checkbox" name="hobi" value="Game">Permainan Video
+            <input type="checkbox" name="hobi" value="internet">Internet
+            <br>
+            <b>
+                Komentar
+            </b>
+            <br>
+            <textarea cols="30" rows="5" name="komentar"></textarea>
+            <br>
+            <input type="submit" value="send info">
+            <input type="reset" value="clear form">
+        </form>
+    </body>
+</html>
